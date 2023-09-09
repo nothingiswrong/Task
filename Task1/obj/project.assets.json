@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fyodor101/dotnetProjects/Task/Task1/Task1.csproj",
+      "projectUniqueName": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "/home/fyodor101/dotnetProjects/Task/Task1/Task1.csproj",
+      "projectPath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj",
       "packagesPath": "/home/fyodor101/.nuget/packages/",
-      "outputPath": "/home/fyodor101/dotnetProjects/Task/Task1/obj/",
+      "outputPath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fyodor101/.nuget/NuGet/NuGet.Config"

@@ -3,6 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using AvaloniaApplication1.ViewModels;
 using AvaloniaApplication1.Views;
+using Task1;
 
 namespace AvaloniaApplication1;
 
@@ -19,7 +20,7 @@ public partial class App : Application
         {
             desktop.MainWindow = new MainWindow
             {
-                DataContext = new MainWindowViewModel(),
+                DataContext = new MainWindowViewModel(new TaskMaster()),
             };
         }
 

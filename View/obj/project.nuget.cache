@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4nt3a8OOJnRLlCZdsWjIe3UqIk4N6de7u4tLydeR6yWjNno4plR0Rutphsflrw0mF3LPCU3MdLZQ/5rgh958Kw==",
+  "dgSpecHash": "NzL3wYYCURQu6lUIbAoPRoN7E6iuc7V2i6vgiW6PNjWD57tcFlW3cgRnMUzOEOGzEYa+YBdYhTlAnnnlU66tAA==",
   "success": true,
-  "projectFilePath": "/home/fyodor101/dotnetProjects/Task/View/View.csproj",
+  "projectFilePath": "/home/fyodor101/dotnetProjects/Task/Task/View/View.csproj",
   "expectedPackageFiles": [
     "/home/fyodor101/.nuget/packages/avalonia/11.0.2/avalonia.11.0.2.nupkg.sha512",
     "/home/fyodor101/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

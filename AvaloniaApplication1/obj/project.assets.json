@@ -354,6 +354,22 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "DynamicData/7.9.5": {
         "type": "package",
         "dependencies": {
@@ -465,6 +481,19 @@
           "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
             "assetType": "native",
             "rid": "win-x86"
+          }
+        }
+      },
+      "LiveChartsCore/2.0.0-beta.950": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/LiveChartsCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/LiveChartsCore.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1446,6 +1475,16 @@
         "runtime": {
           "lib/net6.0/Tmds.DBus.Protocol.dll": {}
         }
+      },
+      "Task1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Task1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task1.dll": {}
+        }
       }
     }
   },
@@ -1901,6 +1940,37 @@
         "lib/netstandard2.0/Avalonia.X11.xml"
       ]
     },
+    "CommunityToolkit.Mvvm/8.2.1": {
+      "sha512": "I24ofWVEdplxYjUez9/bljv/qb8r8Ccj6cvYXHexNBegLaD3iDy3QrzAAOYVMmfGWIXxlU1ZtECQNfU07+6hXQ==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "DynamicData/7.9.5": {
       "sha512": "xFwVha7o3qUtVYxco5p+7Urcztc/m1gmaEUxOG0i7LNe+vfCfyb0ECAsT2FLm3zOPHb0g8s9qVu5LfPKfRNVng==",
       "type": "package",
@@ -2087,6 +2157,30 @@
         "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
+      ]
+    },
+    "LiveChartsCore/2.0.0-beta.950": {
+      "sha512": "k4k6S+ELJqlsRy0UobSetnKE8FaUG70wsciuwBKgB3Pehm6Ss4ofcTc92jixa0zyr4qc9dQrOlE3Lzn+SA5fJQ==",
+      "type": "package",
+      "path": "livechartscore/2.0.0-beta.950",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0-android31.0/LiveChartsCore.dll",
+        "lib/net6.0-android31.0/LiveChartsCore.xml",
+        "lib/net6.0-ios16.1/LiveChartsCore.dll",
+        "lib/net6.0-ios16.1/LiveChartsCore.xml",
+        "lib/net6.0-maccatalyst16.1/LiveChartsCore.dll",
+        "lib/net6.0-maccatalyst16.1/LiveChartsCore.xml",
+        "lib/net6.0/LiveChartsCore.dll",
+        "lib/net6.0/LiveChartsCore.xml",
+        "lib/netcoreapp2.0/LiveChartsCore.dll",
+        "lib/netcoreapp2.0/LiveChartsCore.xml",
+        "lib/netstandard2.0/LiveChartsCore.dll",
+        "lib/netstandard2.0/LiveChartsCore.xml",
+        "livechartscore.2.0.0-beta.950.nupkg.sha512",
+        "livechartscore.nuspec"
       ]
     },
     "MicroCom.Runtime/0.11.0": {
@@ -4680,6 +4774,11 @@
         "tmds.dbus.protocol.0.15.0.nupkg.sha512",
         "tmds.dbus.protocol.nuspec"
       ]
+    },
+    "Task1/1.0.0": {
+      "type": "project",
+      "path": "../Task1/Task1.csproj",
+      "msbuildProject": "../Task1/Task1.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4689,7 +4788,10 @@
       "Avalonia.Diagnostics >= 11.0.2",
       "Avalonia.Fonts.Inter >= 11.0.2",
       "Avalonia.ReactiveUI >= 11.0.2",
-      "Avalonia.Themes.Fluent >= 11.0.2"
+      "Avalonia.Themes.Fluent >= 11.0.2",
+      "CommunityToolkit.Mvvm >= 8.2.1",
+      "LiveChartsCore >= 2.0.0-beta.950",
+      "Task1 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4698,11 +4800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/AvaloniaApplication1.csproj",
+      "projectUniqueName": "/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/AvaloniaApplication1.csproj",
       "projectName": "AvaloniaApplication1",
-      "projectPath": "/home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/AvaloniaApplication1.csproj",
+      "projectPath": "/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/AvaloniaApplication1.csproj",
       "packagesPath": "/home/fyodor101/.nuget/packages/",
-      "outputPath": "/home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/obj/",
+      "outputPath": "/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fyodor101/.nuget/NuGet/NuGet.Config"
@@ -4716,7 +4818,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj": {
+              "projectPath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4752,6 +4858,14 @@
           "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.1, )"
+          },
+          "LiveChartsCore": {
+            "target": "Package",
+            "version": "[2.0.0-beta.950, )"
           }
         },
         "imports": [

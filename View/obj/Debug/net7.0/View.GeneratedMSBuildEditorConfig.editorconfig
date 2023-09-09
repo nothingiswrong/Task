@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = View
-build_property.ProjectDir = /home/fyodor101/dotnetProjects/Task/View/
+build_property.ProjectDir = /home/fyodor101/dotnetProjects/Task/Task/View/
 
-[/home/fyodor101/dotnetProjects/Task/View/App.axaml]
+[/home/fyodor101/dotnetProjects/Task/Task/View/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/fyodor101/dotnetProjects/Task/View/MainWindow.axaml]
+[/home/fyodor101/dotnetProjects/Task/Task/View/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

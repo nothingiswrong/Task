@@ -134,3 +134,13 @@
 /home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.csproj.CopyComplete
 /home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.genruntimeconfig.cache
 /home/fyodor101/dotnetProjects/Task/AvaloniaApplication1/obj/Debug/net7.0/ref/AvaloniaApplication1.dll
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.csproj.AssemblyReference.cache
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/Avalonia/resources
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.GeneratedMSBuildEditorConfig.editorconfig
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.AssemblyInfoInputs.cache
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.AssemblyInfo.cs
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.csproj.CoreCompileInputs.cache
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.dll
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/refint/AvaloniaApplication1.dll
+/home/fyodor101/dotnetProjects/Task/Task/AvaloniaApplication1/obj/Debug/net7.0/AvaloniaApplication1.pdb
