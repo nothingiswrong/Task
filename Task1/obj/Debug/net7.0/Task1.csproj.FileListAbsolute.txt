@@ -26,3 +26,17 @@
 /home/fyodor101/dotnetProjects/Task/Task/Task1/obj/Debug/net7.0/Task1.pdb
 /home/fyodor101/dotnetProjects/Task/Task/Task1/obj/Debug/net7.0/Task1.genruntimeconfig.cache
 /home/fyodor101/dotnetProjects/Task/Task/Task1/obj/Debug/net7.0/ref/Task1.dll
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/bin/Debug/net7.0/Task1
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/bin/Debug/net7.0/Task1.deps.json
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/bin/Debug/net7.0/Task1.runtimeconfig.json
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/bin/Debug/net7.0/Task1.dll
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/bin/Debug/net7.0/Task1.pdb
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.AssemblyInfoInputs.cache
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.AssemblyInfo.cs
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.csproj.CoreCompileInputs.cache
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.dll
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/refint/Task1.dll
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.pdb
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/Task1.genruntimeconfig.cache
+/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/Debug/net7.0/ref/Task1.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj": {}
+    "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/Task1.csproj": {}
   },
   "projects": {
-    "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj": {
+    "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj",
+        "projectUniqueName": "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj",
-        "packagesPath": "/home/fyodor101/.nuget/packages/",
-        "outputPath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/obj/",
+        "projectPath": "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/Task1.csproj",
+        "packagesPath": "/home/fyodor/.nuget/packages/",
+        "outputPath": "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fyodor101/.nuget/NuGet/NuGet.Config"
+          "/home/fyodor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -48,12 +48,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.10, 7.0.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

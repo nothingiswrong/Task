@@ -25,6 +25,7 @@ public class TaskMaster
     {
         var tests = new List<List<int[]>>(c);
         var rnd = new Random();
+        
         for (var i = 0; i < c; i++)
         {
             tests.Add(new List<int[]>()
