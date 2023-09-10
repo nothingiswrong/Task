@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using CommunityToolkit.Mvvm.ComponentModel;
-using DynamicData;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
+using LiveChartsCore.SkiaSharpView.Painting;
+using LiveChartsCore.SkiaSharpView.VisualElements;
+using SkiaSharp;
 using Task1;
 
 namespace AvaloniaApplication1.ViewModels;
@@ -21,6 +22,8 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     public MainWindowViewModel(TaskMaster taskMaster)
     {
         _taskMaster = taskMaster;
+        var wmTests = _taskMaster.GenerateTestsN7(100, 10000, 10000);
+        Util.WarmUp(1000, _taskMaster.N7, wmTests[0][0], wmTests[0][1]);
     }
 
     public string Num
@@ -49,16 +52,15 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
         );
         
         var val = new List<ObservablePoint>(res.Count);
-        foreach (var r in res)
-        {
-            val.Add(new ObservablePoint(r.Key, r.Value));
-        }
+        foreach (var r in res)  val.Add(new ObservablePoint(r.Key, r.Value));
+        
         
         Series = new ISeries[]
         {
             new LineSeries<ObservablePoint>()
             {
-                Values = val
+                Values = val,
+                Fill = null
             }
         };
         OnPropertyChanged(nameof(Series));
@@ -68,17 +70,20 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
 
     //Plot
     
+    public LabelVisual Title { get; set; } =
+        new LabelVisual
+        {
+            Padding = new LiveChartsCore.Drawing.Padding(15),
+            Paint = new SolidColorPaint(SKColors.DarkSlateGray)
+        };
+
     public ISeries[] Series { get; set; } =
     {
         new LineSeries<ObservablePoint>
         {
             Values = new ObservablePoint[]
             {
-                new ObservablePoint(0, 4),
-                new ObservablePoint(1, 3),
-                new ObservablePoint(3, 8),
-                new ObservablePoint(18, 6),
-                new ObservablePoint(20, 12),
+                new ObservablePoint()
             }
         }
     };
