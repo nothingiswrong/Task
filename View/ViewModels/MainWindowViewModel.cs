@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using CommunityToolkit.Mvvm.ComponentModel;
+using DynamicData;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
+using Task1;
 
 namespace AvaloniaApplication1.ViewModels;
 
@@ -13,6 +16,12 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     private int _num = 0;
     private int _start = 0;
     private int _step = 0;
+    private readonly TaskMaster _taskMaster;
+
+    public MainWindowViewModel(TaskMaster taskMaster)
+    {
+        _taskMaster = taskMaster;
+    }
 
     public string Num
     {
@@ -35,20 +44,45 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     //Not implemented yet
     public void CalcButtonOnClick()
     {
-        Console.WriteLine("It works!");
+        var res = _taskMaster.PassTests(
+            _taskMaster.GenerateTestsN7(_num, _start, _step)
+        );
+        
+        var val = new List<ObservablePoint>(res.Count);
+        foreach (var r in res)
+        {
+            val.Add(new ObservablePoint(r.Key, r.Value));
+        }
+        
+        Series = new ISeries[]
+        {
+            new LineSeries<ObservablePoint>()
+            {
+                Values = val
+            }
+        };
+        OnPropertyChanged(nameof(Series));
     }
+
+
 
     //Plot
     
-    public ISeries[] Series { get; set; } 
-        = new ISeries[]
+    public ISeries[] Series { get; set; } =
+    {
+        new LineSeries<ObservablePoint>
         {
-            new LineSeries<double>
+            Values = new ObservablePoint[]
             {
-                Values = new double[] { 2, 1, 3, 5, 3, 4, 6 },
-                Fill = null
+                new ObservablePoint(0, 4),
+                new ObservablePoint(1, 3),
+                new ObservablePoint(3, 8),
+                new ObservablePoint(18, 6),
+                new ObservablePoint(20, 12),
             }
-        };
+        }
+    };
+
 
     
 

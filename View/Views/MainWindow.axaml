@@ -28,11 +28,11 @@
                     <Label Content="Num" HorizontalAlignment="Center"></Label>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Vertical" Margin="10">
-                    <TextBox Text=""></TextBox>
+                    <TextBox Text="{Binding Start}"></TextBox>
                     <Label Content="Start" HorizontalAlignment="Center"></Label>
                 </StackPanel>
                 <StackPanel Grid.Column="2" Orientation="Vertical" Margin="10">
-                    <TextBox Text=""></TextBox>
+                    <TextBox Text="{Binding Step}"></TextBox>
                     <Label Content="Step" HorizontalAlignment="Center"></Label>
                 </StackPanel>
             </Grid>
