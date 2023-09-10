@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Esz7O2cY07UOa/HSay0dCvuwrswjd4P+sPeCtbGz9UU8fz882egEUQpYga9PtOB3hPXE/GrSQA/zaprI44+9vw==",
+  "dgSpecHash": "q0A7LHGUB4kGMTCE0utGsd0QdrRK4W5JAj8XKZbBp9qQLVy5eNoMQBT0tD2ihajyQfLCBgbHkYtRNaRTTcxHqg==",
   "success": true,
-  "projectFilePath": "/home/fyodor/dotnetProjects/SnACDP/Task/Task/Task1/Task1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/fyodor101/dotnetProjects/Task/Task/Task1/Task1.csproj",
+  "expectedPackageFiles": [
+    "/home/fyodor101/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.10/microsoft.netcore.app.host.linux-x64.7.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

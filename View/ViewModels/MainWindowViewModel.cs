@@ -54,7 +54,7 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
         var val = new List<ObservablePoint>(res.Count);
         foreach (var r in res)  val.Add(new ObservablePoint(r.Key, r.Value));
         
-        
+            
         Series = new ISeries[]
         {
             new LineSeries<ObservablePoint>()
@@ -89,8 +89,25 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     };
 
 
-    
+    public Axis[] XAxes { get; set; }
+        = new Axis[]
+        {
+            new Axis
+            {
+                Name = "N",
+                NamePaint = new SolidColorPaint(SKColors.Blue),
+            }
+        };
 
+    public Axis[] YAxes { get; set; }
+        = new Axis[]
+        {
+            new Axis
+            {
+                Name = "Ticks",
+                NamePaint = new SolidColorPaint(SKColors.Blue),
+            }
+        };
     public event PropertyChangedEventHandler? PropertyChanged;
 
     protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
