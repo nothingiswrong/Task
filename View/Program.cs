@@ -15,7 +15,7 @@ class Program
     {
         BuildAvaloniaApp()
         .StartWithClassicDesktopLifetime(args);
-        for (int i = 0; i < 1000; i++) new TaskMaster().N3(new int[] {1,1,1,1,2,4,5}, 1);
+         for (int i = 0; i < 1000; i++) new TaskMaster().N3(new int[] {1, 2, 2, 2, 2, 3, 4}, 2);
     }
 
     // Avalonia configuration, don't remove; also used by visual designer.

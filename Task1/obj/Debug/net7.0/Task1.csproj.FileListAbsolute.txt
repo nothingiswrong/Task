@@ -61,3 +61,7 @@
 /home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.dll
 /home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/refint/Task1.dll
 /home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.pdb
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/bin/Debug/net7.0/Task1.deps.json
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/bin/Debug/net7.0/Task1.dll
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/bin/Debug/net7.0/Task1.pdb
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/ref/Task1.dll

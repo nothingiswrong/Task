@@ -22,8 +22,6 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     public MainWindowViewModel(TaskMaster taskMaster)
     {
         _taskMaster = taskMaster;
-        var wmTests = _taskMaster.GenerateTestsN7(100, 10000, 10000);
-        Util.WarmUp(1000, _taskMaster.N7, wmTests[0][0], wmTests[0][1]);
     }
 
     public string Num
