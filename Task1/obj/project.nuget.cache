@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XhBFm2Y0HsOSZ7HuJxzpM3vL7RN1rXAi76rVtMY3fAMPfJyuvEf5Qklq04ECXplChDXSgRjhFnaZAnUPi7rNkw==",
+  "dgSpecHash": "ZxTxvM6YfVLxqBL3st8TIjxTRBsHYSB1WWy3QSZSussZV3rNsL23guoh8N2jECNS1R3Vq6oCthFw/SwkAesnpg==",
   "success": true,
-  "projectFilePath": "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj",
-  "expectedPackageFiles": [
-    "/home/fyodor101/.nuget/packages/microsoft.netcore.app.ref/7.0.10/microsoft.netcore.app.ref.7.0.10.nupkg.sha512",
-    "/home/fyodor101/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512",
-    "/home/fyodor101/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.10/microsoft.netcore.app.host.linux-x64.7.0.10.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/fyodor/dProjects/Task1_Misha/Task/Task1/Task1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

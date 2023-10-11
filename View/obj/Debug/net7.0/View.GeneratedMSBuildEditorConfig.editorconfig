@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaApplication1
-build_property.ProjectDir = /home/fyodor101/dProjects/Task/Task/View/
+build_property.ProjectDir = /home/fyodor/dProjects/Task1_Misha/Task/View/
 
-[/home/fyodor101/dProjects/Task/Task/View/App.axaml]
+[/home/fyodor/dProjects/Task1_Misha/Task/View/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/fyodor101/dProjects/Task/Task/View/Views/MainWindow.axaml]
+[/home/fyodor/dProjects/Task1_Misha/Task/View/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

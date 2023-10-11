@@ -290,3 +290,6 @@
 /home/fyodor101/dProjects/Task/Task/View/obj/Debug/net7.0/View.csproj.CopyComplete
 /home/fyodor101/dProjects/Task/Task/View/obj/Debug/net7.0/View.genruntimeconfig.cache
 /home/fyodor101/dProjects/Task/Task/View/obj/Debug/net7.0/ref/View.dll
+/home/fyodor/dProjects/Task1_Misha/Task/View/obj/Debug/net7.0/View.dll
+/home/fyodor/dProjects/Task1_Misha/Task/View/obj/Debug/net7.0/refint/View.dll
+/home/fyodor/dProjects/Task1_Misha/Task/View/obj/Debug/net7.0/View.pdb

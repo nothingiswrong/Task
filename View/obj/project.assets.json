@@ -4915,19 +4915,19 @@
     ]
   },
   "packageFolders": {
-    "/home/fyodor101/.nuget/packages/": {}
+    "/home/fyodor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fyodor101/dProjects/Task/Task/View/View.csproj",
+      "projectUniqueName": "/home/fyodor/dProjects/Task1_Misha/Task/View/View.csproj",
       "projectName": "View",
-      "projectPath": "/home/fyodor101/dProjects/Task/Task/View/View.csproj",
-      "packagesPath": "/home/fyodor101/.nuget/packages/",
-      "outputPath": "/home/fyodor101/dProjects/Task/Task/View/obj/",
+      "projectPath": "/home/fyodor/dProjects/Task1_Misha/Task/View/View.csproj",
+      "packagesPath": "/home/fyodor/.nuget/packages/",
+      "outputPath": "/home/fyodor/dProjects/Task1_Misha/Task/View/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/fyodor101/.nuget/NuGet/NuGet.Config"
+        "/home/fyodor/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4939,8 +4939,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj": {
-              "projectPath": "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj"
+            "/home/fyodor/dProjects/Task1_Misha/Task/Task1/Task1.csproj": {
+              "projectPath": "/home/fyodor/dProjects/Task1_Misha/Task/Task1/Task1.csproj"
             }
           }
         }
@@ -5003,20 +5003,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.10, 7.0.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[7.0.10, 7.0.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.10, 7.0.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

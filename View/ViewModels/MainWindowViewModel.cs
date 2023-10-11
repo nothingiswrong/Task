@@ -47,8 +47,8 @@ public class MainWindowViewModel : ObservableObject, INotifyPropertyChanged
     //Not implemented yet
     public void CalcButtonOnClick()
     {
-        var res = _taskMaster.PassTests(
-            _taskMaster.GenerateTestsN7(_num, _start, _step)
+        var res = _taskMaster.PassTestsN3(
+            _taskMaster.GenerateTestsN3(_num, _start, _step)
         );
         
         var val = new List<ObservablePoint>(res.Count);

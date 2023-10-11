@@ -54,3 +54,10 @@
 /home/fyodor101/dProjects/Task/Task/Task1/obj/Debug/net7.0/Task1.pdb
 /home/fyodor101/dProjects/Task/Task/Task1/obj/Debug/net7.0/Task1.genruntimeconfig.cache
 /home/fyodor101/dProjects/Task/Task/Task1/obj/Debug/net7.0/ref/Task1.dll
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.AssemblyInfoInputs.cache
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.AssemblyInfo.cs
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.csproj.CoreCompileInputs.cache
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.dll
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/refint/Task1.dll
+/home/fyodor/dProjects/Task1_Misha/Task/Task1/obj/Debug/net7.0/Task1.pdb
