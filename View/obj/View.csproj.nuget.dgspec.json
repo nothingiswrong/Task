@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/fyodor101/dProjects/Task/Task/View/View.csproj": {}
+  },
+  "projects": {
+    "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj",
+        "projectName": "Task1",
+        "projectPath": "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj",
+        "packagesPath": "/home/fyodor101/.nuget/packages/",
+        "outputPath": "/home/fyodor101/dProjects/Task/Task/Task1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fyodor101/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.10, 7.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/fyodor101/dProjects/Task/Task/View/View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fyodor101/dProjects/Task/Task/View/View.csproj",
+        "projectName": "View",
+        "projectPath": "/home/fyodor101/dProjects/Task/Task/View/View.csproj",
+        "packagesPath": "/home/fyodor101/.nuget/packages/",
+        "outputPath": "/home/fyodor101/dProjects/Task/Task/View/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fyodor101/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj": {
+                "projectPath": "/home/fyodor101/dProjects/Task/Task/Task1/Task1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-beta.950, )"
+            },
+            "LiveChartsCore.SkiaSharpView.Avalonia": {
+              "target": "Package",
+              "version": "[2.0.0-beta.950, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.10, 7.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
